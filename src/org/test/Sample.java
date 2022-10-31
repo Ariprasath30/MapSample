@@ -16,6 +16,8 @@ public class Sample {
 		m.put("Englisg", 200);
 		m.put("hindi", 300);
 		m.put("malayalam", 500);
+		m.put("telgu", 200);
+		
 		System.out.println(m);
 		Set<Entry<String, Integer>> entrySet = m.entrySet();
 		for (Entry<String, Integer> entry : entrySet) {
